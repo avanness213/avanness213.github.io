@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.astro/
+.claude/*
+!.claude/skills/
+.playwright-cli/
+/*.png
