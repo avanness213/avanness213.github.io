@@ -11,4 +11,4 @@ Run `npm install && npm run dev` to preview. Push to `main` to deploy.
   `python .claude/skills/resume-pdf/build_resume.py` and `python .claude/skills/resume-pdf/verify_layout.py`.
 - **Triptych photo**: replace `public/images/triptych.png` with a 3:2 image (three vertical panels
   side by side, roughly 1536×1024 or larger). Keep the file name and the site picks it up.
-- **Background texture**: `public/images/hero-bg.png`, 2172×724 or similar wide dark image.
+- **Rebuilding the triptych** from new photos: `python .claude/image-generation/composite_triptych.py LEFT MID RIGHT` (add `--stitch` for panels that are already graded 1:2 portraits).
